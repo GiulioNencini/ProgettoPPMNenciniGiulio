@@ -1,0 +1,35 @@
+.trend-external-col {
+    display: flex;
+    align-items: flex-start;
+}
+
+.trend-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.trend-box > div {
+    margin: 0 10px 5px 10px;
+}
+
+.trend-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.trend-box a:hover {
+    text-decoration: underline;
+}
+
+.trend-border {
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.trend-noborder h6 {
+    margin: 0;
+    white-space: nowrap;
+}

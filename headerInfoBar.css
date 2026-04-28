@@ -1,0 +1,23 @@
+.info-bar-container{
+    background: rgb(66, 66, 66);
+
+}
+
+.info-bar{
+    width: 80%;
+    margin: auto;
+}
+
+.info-col{
+    color: white;
+}
+
+.info-col h2{
+    border-left: 1px solid black;
+    padding-left: 30px;
+}
+
+.info-col a{
+    text-decoration: none;
+    color: white;
+}

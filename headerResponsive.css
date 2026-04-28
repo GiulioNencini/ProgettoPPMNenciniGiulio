@@ -1,0 +1,253 @@
+.hamburger-btn,
+.side-drawer,
+.drawer-overlay,
+.mobile-only,
+.account-btn {
+    display: none !important;
+}
+
+.side-drawer-right {
+    position: fixed;
+    top: 0;
+    right: -240px;
+    width: 240px;
+    height: 100%;
+    background-color: #ac0303;
+    z-index: 20000;
+    transition: right 0.3s ease;
+    overflow-y: auto;
+}
+
+.side-drawer.is-open {
+    left: 0 !important;
+}
+
+.side-drawer-right.is-open {
+    right: 0 !important;
+}
+
+.drawer-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 19999;
+}
+
+.drawer-overlay.active {
+    display: block;
+}
+
+.desktop-only .me-2 {
+    margin-right: 8px !important;
+}
+
+
+@media (max-width: 815px) {
+
+    #center-title-col {
+        width: 269px !important; 
+        flex: 0 0 269px !important; 
+        min-width: 269px !important;
+        overflow: visible; 
+    }
+
+    #center-title-col img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+
+    .logo-box{
+        width: 400px !important;
+    }
+
+    .logo-box img{
+        width: 400px !important;
+        height: 34px;
+    }
+
+    .info-bar-container{
+        display: none;
+    }
+
+    .mobile-sub-nav li a {
+        display: block;
+        padding: 10px 15px 10px 30px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .title-box {
+        border: 2px solid #ac0303;
+        height: 50px !important;
+        min-height: 50px !important;
+        display: flex !important;
+    }
+
+    .title-col {
+        width: 17%;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
+
+    .mobile-only {
+        display: flex !important;
+    }
+
+    .account-btn {
+        display: block !important;
+        background: transparent;
+        border: none;
+        padding: 0;
+    }
+
+    .account-link-btn {
+        width: 100%;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+        color: white;
+        text-align: left;
+        padding: 12px 0;
+        font: inherit;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none !important;
+    }
+
+    .hamburger-btn {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30px;
+        height: 25px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin-left: 15px;
+    }
+
+    .hamburger-btn span {
+        width: 100%;
+        height: 3px;
+        background-color: black;
+    }
+
+
+    .side-drawer {
+        display: block !important;
+        position: fixed;
+        top: 0;
+        left: -320px;
+        width: 320px;
+        height: 100%;
+        background-color: #ac0303;
+        z-index: 20000;
+        transition: left 0.3s ease;
+        overflow: auto;
+    }
+
+    .side-drawer.is-open {
+        left: 0;
+    }
+
+    .drawer-header {
+        padding: 15px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .close-btn {
+        background: transparent;
+        color: black;
+        border: none;
+        font-weight: bold;
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+
+    #accountDrawer .close-btn {
+        color: white;
+    }
+
+    .search-bar-container {
+        border-radius: 30px;
+        background: white;
+        flex-grow: 1;
+        padding: 2px 10px;
+    }
+
+    .search-input {
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 5px;
+    }
+
+
+    .mobile-nav-item {
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .mobile-dropdown-btn {
+        width: 100%;
+        background: transparent;
+        color: white;
+        border: none;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .arrow {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid white;
+        transition: transform 0.3s;
+    }
+
+    .mobile-nav-item.open .arrow {
+        transform: rotate(180deg);
+    }
+
+    .mobile-sub-nav {
+        display: none;
+        background-color: rgba(0,0,0,0.1);
+        padding-left: 0;
+    }
+
+    .mobile-nav-item.open .mobile-sub-nav {
+        display: block;
+    }
+
+
+    .drawer-overlay.active {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 19999;
+    }
+    
+    .podcast,
+    .trend {
+        display: none !important;
+    }
+}

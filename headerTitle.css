@@ -1,0 +1,73 @@
+.title-col {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+}
+
+.title-col a {
+    text-align: center;
+    text-decoration: none; 
+    color: #333;
+    margin-top: 0;
+    width: 100%;
+}
+
+.logo-box {
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-box img{
+    width: 100%;
+    max-height: 53px;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 1380px) {
+    .logo-box img {
+        max-width: 100%;
+    }
+}
+
+.subscribe-button,
+.signin-button,
+.signup {
+    margin-left: 0px;
+    white-space: nowrap;
+
+}
+
+.link-title-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+    position: sticky;
+    top: 0;
+}
+
+.subscribe-button {
+    background: #ac0303;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: none;
+    outline: none;
+    padding: 2px 5px;
+}
+
+.signin-button {
+    background: white;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 2px;
+}
+
+

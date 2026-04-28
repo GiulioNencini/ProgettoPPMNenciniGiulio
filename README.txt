@@ -1,0 +1,1 @@
+Tutte le immagini usate in questo progetto sono state generate con IA. Ho voluto lasciare anche immagini "colorate" per distinguere gli spot pubblicitari da tutte le altre immagini
